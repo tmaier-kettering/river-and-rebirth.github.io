@@ -6,15 +6,15 @@
 /* === CUSTOM PROPERTIES === */
 :root {
   /* Color palette */
-  --clr-primary: #6B8F71;
-  --clr-primary-dark: #4F7055;
-  --clr-primary-light: #A8C5AD;
-  --clr-primary-bg: #EFF5F0;
+  --clr-primary: #5D899A;
+  --clr-primary-dark: #5D899A;
+  --clr-primary-light: #FFDEC1;
+  --clr-primary-bg: #FFFBF5;
   --clr-secondary: #5B8FA8;
   --clr-secondary-dark: #3E6A80;
   --clr-secondary-bg: #EBF3F7;
   --clr-accent: #C4896A;
-  --clr-accent-dark: #A06850;
+  --clr-accent-dark: #FDB690;
   --clr-accent-bg: #FBF0EB;
   --clr-bg: #FAF9F7;
   --clr-bg-alt: #F2EEE8;
@@ -22,7 +22,7 @@
   --clr-text-light: #696969;
   --clr-text-muted: #9A9A9A;
   --clr-white: #FFFFFF;
-  --clr-border: #E2DDD5;
+  --clr-border: #3E6A80;
   --clr-border-light: #EDE9E3;
 
   /* Shadows */
