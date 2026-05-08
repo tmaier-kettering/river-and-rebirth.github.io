@@ -1548,6 +1548,8 @@ blockquote cite {
     position: fixed;
     top: 80px;
     bottom: 0;
+    max-height: calc(100vh - 80px);
+    max-height: calc(100dvh - 80px);
     left: 0;
     right: 0;
     background-color: var(--clr-white);
