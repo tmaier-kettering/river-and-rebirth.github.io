@@ -13,7 +13,7 @@ Website for **River & Rebirth Counseling** — a mental health counseling practi
 ├── trauma-therapy.html          Trauma therapy detail page
 ├── fees-insurance.html          Fees, insurance & Good Faith Estimate
 ├── contact.html                 Contact form and crisis resources
-├── favicon.svg                  SVG favicon (wave/river icon)
+├── assets/images/logo.png       Site logo and favicon image
 └── assets/
     ├── css/styles.css           Main stylesheet
     ├── js/script.js             Navigation, animations, form handling
@@ -30,10 +30,10 @@ Website for **River & Rebirth Counseling** — a mental health counseling practi
 
 1. **Replace placeholder text** marked with `[brackets]` throughout the HTML files (therapist name, phone, address, fees, credentials, etc.)
 2. **Add images** to `assets/images/`:
-   - `therapist-photo.jpg` — headshot (referenced in `index.html`, `about.html`)
+   - `headshot.jpg` — therapist headshot (referenced in `index.html`, `about.html`)
    - `hero-image.jpg` — optional hero background
    - `office-photo.jpg` — optional office/space photo
-   - `logo.png` — optional standalone logo
+   - `logo.png` — site logo and favicon
 3. **Update contact info** in all pages (phone, email, address, hours)
 4. **Connect the contact form** — replace the `setTimeout` stub in `assets/js/script.js` with a real form endpoint (e.g., Formspree, Netlify Forms, or a backend)
 5. **Set real fees** in `fees-insurance.html`
