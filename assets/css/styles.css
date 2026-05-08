@@ -58,6 +58,7 @@
   --max-width: 1100px;
   --max-width-narrow: 760px;
   --container-padding: 1.5rem;
+  --header-height: 80px;
 
   /* Border radius */
   --radius-sm: 6px;
@@ -550,7 +551,7 @@ p:last-child {
 /* === HERO === */
 
 .hero {
-  padding-top: 80px;
+  padding-top: var(--header-height);
   position: relative;
   overflow: hidden;
   background: linear-gradient(155deg, #DAEAD8 0%, #C8DFED 40%, #D6E8E3 72%, #E5ECDF 100%);
@@ -1546,10 +1547,10 @@ blockquote cite {
   .site-nav {
     display: none;
     position: fixed;
-    top: 80px;
+    top: var(--header-height);
     bottom: 0;
-    max-height: calc(100vh - 80px);
-    max-height: calc(100dvh - 80px);
+    max-height: calc(100vh - var(--header-height));
+    max-height: calc(100dvh - var(--header-height));
     left: 0;
     right: 0;
     background-color: var(--clr-white);
