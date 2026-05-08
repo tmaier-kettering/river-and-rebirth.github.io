@@ -15,7 +15,7 @@ Website for **River & Rebirth Counseling** — a mental health counseling practi
 ├── grief-therapy.html           Grief therapy detail page
 ├── fees-insurance.html          Fees, insurance & Good Faith Estimate
 ├── contact.html                 Contact details and crisis resources
-├── assets/images/logo.png       Site logo and favicon image
+├── assets/images/logo.webp       Site logo and favicon image
 └── assets/
     ├── css/styles.css           Main stylesheet
     ├── js/script.js             Navigation and animations
@@ -32,10 +32,10 @@ Website for **River & Rebirth Counseling** — a mental health counseling practi
 
 1. **Replace placeholder text** marked with `[brackets]` throughout the HTML files (therapist name, phone, address, fees, credentials, etc.)
 2. **Add images** to `assets/images/`:
-   - `headshot.jpg` — therapist headshot (referenced in `index.html`, `about.html`)
+   - `headshot.webp` — therapist headshot (referenced in `index.html`, `about.html`)
    - `hero-image.jpg` — optional hero background
    - `office-photo.jpg` — optional office/space photo
-   - `logo.png` — site logo and favicon
+   - `logo.webp` — site logo and favicon
 3. **Update contact info** in all pages (phone, email, address, hours)
 4. **Update contact details** in `contact.html` and site footer links as needed
 5. **Set real fees** in `fees-insurance.html`
