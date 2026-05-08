@@ -1547,6 +1547,7 @@ blockquote cite {
     display: none;
     position: fixed;
     top: 80px;
+    bottom: 0;
     left: 0;
     right: 0;
     background-color: var(--clr-white);
@@ -1556,6 +1557,8 @@ blockquote cite {
     gap: 0.5rem;
     border-bottom: 1px solid var(--clr-border);
     box-shadow: var(--shadow-md);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     z-index: 99;
   }
 
