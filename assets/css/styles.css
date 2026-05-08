@@ -74,6 +74,9 @@
   --nav-dropdown-hover-bridge: calc(var(--nav-dropdown-offset) + 0.55rem);
   --nav-dropdown-fade-duration: 0.25s;
   --nav-dropdown-motion-duration: 0.35s;
+
+    /* Header */
+    --header-height: 80px;
 }
 
 /* === RESET === */
@@ -1548,9 +1551,7 @@ blockquote cite {
     display: none;
     position: fixed;
     top: var(--header-height);
-    bottom: 0;
-    max-height: calc(100vh - var(--header-height));
-    max-height: calc(100dvh - var(--header-height));
+    height: calc(100vh - var(--header-height));
     left: 0;
     right: 0;
     background-color: var(--clr-white);
@@ -1594,7 +1595,7 @@ blockquote cite {
 
   .nav-dropdown__menu {
     position: static;
-    display: flex;
+    display: none !important;
     min-width: 0;
     margin-top: 0.25rem;
     padding: 0.25rem 0 0 0.75rem;
