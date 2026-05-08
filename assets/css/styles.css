@@ -441,6 +441,15 @@ p:last-child {
   position: relative;
 }
 
+.nav-dropdown::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: max(100%, 20rem);
+  height: 0.85rem;
+}
+
 .nav-dropdown__toggle {
   display: inline-flex;
   align-items: center;
@@ -1563,6 +1572,10 @@ blockquote cite {
 
   .nav-dropdown {
     width: 100%;
+  }
+
+  .nav-dropdown::after {
+    display: none;
   }
 
   .nav-dropdown__toggle {
