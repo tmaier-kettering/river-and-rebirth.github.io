@@ -53,6 +53,7 @@ Grief Therapy (for both acute (<6mo from loss) and complicated (>6mo from loss) 
 Let's Connect
 Phone: (856)887-1770 Calls and texts welcome during business hours
 Email: hello@riverandrebirth.com Non-urgent inquiries welcome
+Link: https://www.psychologytoday.com/us/therapists?search=hillary+maier
 Location: Telehealth available throughout the state of Michigan
 (Do not include office hours)
 I respond to all inquiries within a maximum of two business days
