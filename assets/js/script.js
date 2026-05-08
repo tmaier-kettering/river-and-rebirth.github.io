@@ -72,38 +72,6 @@
     });
   })();
 
-  /* ── Contact form ── */
-
-  var contactForm = document.getElementById('contact-form');
-
-  if (contactForm) {
-    contactForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-
-      var submitBtn   = contactForm.querySelector('[type="submit"]');
-      var originalHTML = submitBtn.innerHTML;
-
-      submitBtn.disabled  = true;
-      submitBtn.innerHTML = 'Sending\u2026';
-
-      /* Replace the setTimeout below with a real fetch() to your form endpoint */
-      setTimeout(function () {
-        showFormSuccess();
-        submitBtn.disabled  = false;
-        submitBtn.innerHTML = originalHTML;
-        contactForm.reset();
-      }, 1400);
-    });
-  }
-
-  function showFormSuccess() {
-    var el = document.getElementById('form-success');
-    if (!el) return;
-    el.removeAttribute('hidden');
-    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    setTimeout(function () { el.setAttribute('hidden', ''); }, 9000);
-  }
-
   /* ── Scroll-reveal animations ── */
 
   if ('IntersectionObserver' in window) {

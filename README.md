@@ -11,12 +11,14 @@ Website for **River & Rebirth Counseling** — a mental health counseling practi
 ├── perinatal-mental-health.html Perinatal mental health detail page
 ├── emdr-therapy.html            EMDR therapy detail page
 ├── trauma-therapy.html          Trauma therapy detail page
+├── perinatal-support-sexual-assault-survivors.html Perinatal survivor support detail page
+├── grief-therapy.html           Grief therapy detail page
 ├── fees-insurance.html          Fees, insurance & Good Faith Estimate
-├── contact.html                 Contact form and crisis resources
+├── contact.html                 Contact details and crisis resources
 ├── assets/images/logo.png       Site logo and favicon image
 └── assets/
     ├── css/styles.css           Main stylesheet
-    ├── js/script.js             Navigation, animations, form handling
+    ├── js/script.js             Navigation and animations
     └── images/                  Place site images here (see below)
 ```
 
@@ -35,7 +37,7 @@ Website for **River & Rebirth Counseling** — a mental health counseling practi
    - `office-photo.jpg` — optional office/space photo
    - `logo.png` — site logo and favicon
 3. **Update contact info** in all pages (phone, email, address, hours)
-4. **Connect the contact form** — replace the `setTimeout` stub in `assets/js/script.js` with a real form endpoint (e.g., Formspree, Netlify Forms, or a backend)
+4. **Update contact details** in `contact.html` and site footer links as needed
 5. **Set real fees** in `fees-insurance.html`
 
 ## Images
