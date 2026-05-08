@@ -457,7 +457,7 @@ p:last-child {
   padding: 0.625rem;
   border: 1px solid var(--clr-border-light);
   border-radius: var(--radius);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(250, 249, 247, 0.96) 100%);
+  background: linear-gradient(180deg, #FFFFFF 0%, #FAF9F7 100%);
   box-shadow: 0 12px 34px rgba(93, 137, 154, 0.16), 0 2px 10px rgba(93, 137, 154, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -466,7 +466,7 @@ p:last-child {
   pointer-events: none;
   transform: translateY(0.45rem) scale(0.98);
   transform-origin: top left;
-  transition: opacity 0.25s ease, transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.35s ease;
+  transition: opacity 0.25s ease, transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), visibility 0s linear 0.25s;
   z-index: 110;
 }
 
@@ -476,6 +476,7 @@ p:last-child {
   visibility: visible;
   pointer-events: auto;
   transform: translateY(0) scale(1);
+  transition: opacity 0.25s ease, transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), visibility 0s linear 0s;
 }
 
 .nav-dropdown__menu a {
@@ -484,6 +485,7 @@ p:last-child {
   white-space: normal;
   line-height: 1.4;
   font-weight: var(--fw-normal);
+  transition: transform var(--transition), background-color var(--transition), color var(--transition);
 }
 
 .nav-dropdown__menu a:hover,
