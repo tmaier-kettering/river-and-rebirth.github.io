@@ -1,6 +1,6 @@
 # River & Rebirth Counseling
 
-Website for **River & Rebirth Counseling** — a mental health counseling practice specializing in perinatal mental health, EMDR therapy, and trauma therapy, located in Fenton, Michigan.
+Website for **River & Rebirth Counseling** — a mental health counseling practice specializing in perinatal mental health, EMDR therapy, and trauma therapy, serving clients throughout Michigan.
 
 ## Site Structure
 
