@@ -70,6 +70,21 @@
         link.setAttribute('aria-current', 'page');
       }
     });
+
+    var serviceDetailPages = [
+      'perinatal-mental-health.html',
+      'emdr-therapy.html',
+      'trauma-therapy.html',
+      'perinatal-support-sexual-assault-survivors.html',
+      'grief-therapy.html'
+    ];
+
+    if (serviceDetailPages.indexOf(currentPath) !== -1) {
+      var servicesLink = document.querySelector('.nav-dropdown__toggle[href="services.html"]');
+      if (servicesLink && !servicesLink.classList.contains('active')) {
+        servicesLink.classList.add('active');
+      }
+    }
   })();
 
   /* ── Scroll-reveal animations ── */
