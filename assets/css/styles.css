@@ -1206,8 +1206,19 @@ blockquote cite {
 
 /* === CONTACT PAGE === */
 
-.contact-info { max-width: 58rem; }
+.contact-info { max-width: 72rem; }
 .contact-info h2 { font-size: var(--fs-2xl); margin-bottom: 1.25rem; }
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+.contact-layout__side .info-box { margin-bottom: 1.5rem; }
+.contact-layout__side .crisis-box { margin-top: 0; }
 
 .contact-details {
   display: flex;
@@ -1442,6 +1453,7 @@ blockquote cite {
   .about-credentials { right: 0; bottom: -1rem; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
   .about-page-grid { grid-template-columns: 300px 1fr; gap: 3rem; }
+  .contact-layout { grid-template-columns: 1fr; gap: 2rem; }
 }
 
 @media (max-width: 768px) {
