@@ -28,22 +28,6 @@ Website for **River & Rebirth Counseling** — a mental health counseling practi
 - **Fonts:** [Lora](https://fonts.google.com/specimen/Lora) (headings) · [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (body) via Google Fonts
 - **Feel:** Gentle, safe, hopeful — designed for people in vulnerable life transitions
 
-## Getting Started (Customization)
-
-1. **Replace placeholder text** marked with `[brackets]` throughout the HTML files (therapist name, phone, address, fees, credentials, etc.)
-2. **Add images** to `assets/images/`:
-   - `headshot.webp` — therapist headshot (referenced in `index.html`, `about.html`)
-   - `hero-image.jpg` — optional hero background
-   - `office-photo.jpg` — optional office/space photo
-   - `logo.webp` — site logo and favicon
-3. **Update contact info** in all pages (phone, email, address, hours)
-4. **Update contact details** in `contact.html` and site footer links as needed
-5. **Set real fees** in `fees-insurance.html`
-
-## Images
-
-Image placeholders use CSS gradients and inline SVG. When real photos are available, replace the placeholder `<div>` elements with `<img>` tags as noted in the HTML comments.
-
 ## Technologies
 
 - Pure HTML5, CSS3, and vanilla JavaScript — no frameworks or build tools required
