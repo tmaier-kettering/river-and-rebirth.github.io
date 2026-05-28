@@ -20,6 +20,7 @@ Website for **River & Rebirth Counseling** — a mental health counseling practi
     ├── css/styles.css           Main stylesheet
     ├── js/script.js             Navigation and animations
     └── images/                  Place site images here (see below)
+    └── pdfs/                    Place site pdfs here   
 ```
 
 ## Design
